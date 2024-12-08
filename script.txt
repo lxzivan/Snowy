@@ -12,12 +12,14 @@ local Tab = Window:MakeTab({
 
 local Section = Tab:AddSection({
 	Name = "Section"
+})
 
 OrionLib:MakeNotification({
 	Name = "Title!",
 	Content = "Notification content... what will it say??",
 	Image = "rbxassetid://4483345998",
 	Time = 5
+})
 
 Tab:AddButton({
 	Name = "Button!",
@@ -25,4 +27,3 @@ Tab:AddButton({
       		print("button pressed")
   	end    
 })
-
